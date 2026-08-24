@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Electric Sledgehammer of the Gods</title>
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -16,27 +18,24 @@
       <a href="#shows">Shows</a>
       <a href="#gallery">Gallery</a>
       <a href="#contact">Contact</a>
+      <a href="https://www.instagram.com/electricsledgehammerofthegods" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
     </nav>
   </header>
 
   <section class="hero">
     <div>
-      <p>
-      <h2>HARDEST HITTING HARD ROCK COVER BAND IN NYC</h2>
-      <p>
-        Welcome to the official site for Electric Sledgehammer of the Gods.
-        Add your real band bio, music links, show dates, and photos here.
-      </p>
-      <a class="button" href="#music">Listen Now</a>
-    </div>
+      <h2>ELECTRIC SLEDGEHAMMER OF THE GODS</h2>
+      <p>Hardest-hitting hard rock cover band in NYC.</p>
+      <a class="button" href="#shows">Listen Now</a>
+    </div> 
   </section>
 
   <section id="about">
     <h2>About the Band</h2>
     <p>
-      Electric Sledgehammer of the Gods is a loud, hard-hitting band bringing
-      massive guitar tones, pounding drums, and high-voltage live energy.
-      Replace this text with your actual bio.
+      
     </p>
   </section>
 
@@ -44,21 +43,28 @@
     <h2>Upcoming Shows</h2>
 
     <div class="show">
-      <strong>July 18</strong>
-      <span>The Anvil Room - Your City, ST</span>
-      <a href="#">Tickets</a>
-    </div>
-
-    <div class="show">
-      <strong>August 3</strong>
-      <span>Voltage Hall - Another City, ST</span>
-      <a href="#">Tickets</a>
-    </div>
-
-    <div class="show">
       <strong>September 12</strong>
-      <span>Basement Furnace - Your City, ST</span>
-      <a href="#">Tickets</a>
+      <span>Wicked Willy's - New York, NY</span>
+    </div>
+
+    <div class="show">
+      <strong>October 9</strong>
+      <span>HSS Medical Education Autumn Benefit Gala - New York, NY</span>
+    </div>
+
+    <div class="show">
+      <strong>October 30</strong>
+      <span>Halloween Show - Hill Country BBQ - New York, NY</span>
+    </div>
+
+    <div class="show">
+      <strong>November 20</strong>
+      <span>Wicked Willy's - New York, NY</span>
+    </div>
+
+    <div class="show">
+      <strong>December 11</strong>
+      <span>Wicked Willy's - New York, NY</span>
     </div>
   </section>
 
@@ -66,23 +72,33 @@
     <h2>Gallery</h2>
 
     <div class="gallery">
-      <div class="photo">Live Photo</div>
-      <div class="photo">Band Photo</div>
-      <div class="photo">Crowd Photo</div>
-      <div class="photo">Gear Photo</div>
+      <div class="photo">
+        <img src="esg_image2.jpeg" alt="Live Photo" />
+      </div>
+      <div class="photo">
+        <img src="esg_image3.JPG" alt="Band Photo" />
+      </div>
+      <div class="photo">
+        <img src="esg_image4.jpeg" alt="Crowd Photo" />
+      </div>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>Booking / press / general chaos:</p>
-    <p><a href="mailto:booking@example.com">booking@example.com</a></p>
-    <p><a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+    <p><a href="mailto:russelhuang@yahoo.com">Email (russelhuang@yahoo.com)</a></p>
+    <p><a href="https://www.instagram.com/electricsledgehammerofthegods" target="_blank">Instagram</a></p>
   </section>
 
   <footer>
     <p>&copy; <span id="year"></span> Electric Sledgehammer of the Gods</p>
   </footer>
+
+  <!-- Lightbox Overlay -->
+  <div id="lightbox" class="lightbox">
+    <span class="close-btn">&times;</span>
+    <img class="lightbox-content" id="lightboxImg" alt="Expanded view" />
+  </div>
 
   <script src="script.js"></script>
 </body>
